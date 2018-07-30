@@ -67,7 +67,8 @@ profit[i][j]表示第i个元素到第j个元素差值。
              print('最大利润为'+str(a.max_profit()))
              print('*'*10+"交易一次"+'*'*10)
 
-
+##### 运行结果
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/1.png?raw=true)
 
 ### 4.结果分析:
 对于输入的数组[3,2,6,5,0,3],程序的结果是4，下面进行分析    
@@ -130,6 +131,8 @@ profit[i][j]表示第i个元素到第j个元素差值。
 
 
 运行结果：
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/2.jpg?raw=true)
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/3.png?raw=true)
 
 
 ### 5.复杂度分析:
@@ -257,7 +260,7 @@ Maxprofit = maxprofit(maxprofit,temp+profit[k])
       print('*'*10+"交易两次"+'*'*10)
 
 
-
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/4.png?raw=true)
 
 #### C++代码:
     class Solution1
@@ -303,6 +306,7 @@ Maxprofit = maxprofit(maxprofit,temp+profit[k])
 
 
 运行结果:
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/5.jpg?raw=true)
 
 ### 4.复杂度分析:
 由算法可知，每次for循环只有一层，故时间复杂度为O(n)
@@ -396,10 +400,12 @@ global[i-1][j]表示前i-1天进行了j笔交易的最大利润，
         print('*'*10+'交易{}次'.format(k)+'*'*10)
 
 当prices[6] = {3,2,6,5,0,3}时运行结果为
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/6.png?raw=true)
 
 
 当prices[6] = {1,2,1,2,1,2}时
 运行结果为
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/7.png?raw=true)
 
 
 
@@ -444,6 +450,7 @@ global[i-1][j]表示前i-1天进行了j笔交易的最大利润，
 
 
 运行结果，这里prices[6]={3,2,6,5,0,3},其中打印出来的分别为local和global的值
+![运行结果](https://github.com/zhaodi-Wen/-/blob/master/8.png?raw=true)
 
 ### 4.时间复杂度分析:
 for循环由两层，故时间复杂度为O(kn)
